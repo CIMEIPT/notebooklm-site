@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NotebookLM - Google IA</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #4285F4;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    iframe {
+      width: 100%;
+      height: 480px;
+      border: none;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+
+    .carousel {
+      position: relative;
+      width: 100%;
+      overflow: hidden; 
+    }
+
+     .slides {
+       display: flex;
+       transition: transform 0.5s ease-in-out;
+       width: 100%    
+    }      
+      
+      .slides img,
+      .slides a {
+        width:100%;
+        flex-shrink: 0;
+        height: 480px;
+        object-fit: contain;
+        border-radius: 8px;
+    }
+      
+      .navigation {
+       text-align: center;
+       margin-top: 1rem;
+    }
+
+    .navigation button {
+      padding: 0.5rem 1rem;
+      margin: 0 0.5rem;
+      border: none;
+      background-color: #4285F4;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .navigation button:hover {
+      background-color: #3367D6;
+    }
+
+    h1, h2 {
+      color: #202124;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NotebookLM: Inteligência Artificial do Google</h1>
+    <p>Assistente de IA que transforma documentos em resumos, análises e até podcasts.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>📊 Apresentando o NotebookLM</h2>
+      <div class="carousel">
+        <div class="slides" id="slides">
+          <img src="1.png" alt="Slide 1">
+          <img src="2.png" alt="Slide 2">
+          <img src="3.png" alt="Slide 3">
+          <img src="4.png" alt="Slide 4">
+          <a href="https://notebooklm.google.com/" target="_blank">
+            <img src="5.png" alt="Slide 5">
+          </a>
+          <img src="6.png" alt="Slide 6">
+          <img src="7.png" alt="Slide 7">
+        </div>
+      </div>
+      <div class="navigation">
+        <button onclick="prevSlide()">◀️ Anterior</button>
+        <button onclick="nextSlide()">Próximo ▶️</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>🎥 Vídeos Explicativos</h2>
+      <iframe src="https://www.youtube.com/embed/5yyWKoNGPWk" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/J--UDfQYDbU" allowfullscreen></iframe>
+     </section>
+      
+
+     
+     </section>
+      <h2>NotebookLM 🆚 ChatGPT</h2>      
+      <iframe src="https://www.youtube.com/embed/OMDDQdE_Xb4" allowfullscreen></iframe>
+     </section>
+
+     
+     <section>
+      <h2>📝 Matéria completa - TechTudo</h2>
+      <p><strong>Por Juliana Villarinho, Para o TechTudo</strong></p>
+      <p><strong>08/10/2024 06h00</strong></p>
+      <p>O <strong>NotebookLM</strong> funciona como um assistente de pesquisa e escrita, servindo como um caderno de anotações inteligente. A plataforma permite criar "cadernos" personalizados, fazendo upload de documentos e pedindo para que a inteligência artificial (IA) faça resumos, responda perguntas sobre o arquivo, ajude a pesquisar algum tópico relevante e até crie podcasts baseados nos documentos ou anotações. A plataforma é alimentada pelo Gemini Google e pode ser usada gratuitamente, sendo necessário apenas ter uma conta Google para fazer login.</p>
+
+      <p><strong>O que é NotebookLM?</strong></p>
+      <p>NotebookLM é uma plataforma ainda experimental com IA generativa do Google pensada para auxiliar os usuários a terem um maior entendimento sobre determinado assunto. A ferramenta se tornou muito popular recentemente pela capacidade de criar podcasts a partir de documentos e anotações, criando áudios realistas que parecem um episódio verdadeiro, com dois apresentadores conversando de maneira fluida.</p>
+      <p>Ao criar um Notebook, o usuário pode adicionar até 50 arquivos para serem usados como fonte, incluindo PDFs, vídeos do YouTube, áudios, sites completos e documentos criados no Google Docs e Apresentações. Depois, a plataforma oferece resumos detalhados e o usuário pode solicitar ajuda para pesquisar esses documentos, criar um guia de estudo ou um plano de marketing baseado nas fontes, escrever notas, pedir para a IA transcrever os áudios, entre outras funções.</p>
+
+      <p><strong>Quais são os principais recursos do NotebookLM?</strong></p>
+      <p>O NotebookLM é a ferramenta ideal para analisar documentos de maneira mais aprofundada, sendo possível usar a inteligência artificial como uma verdadeira aliada nos estudos ou trabalho. A plataforma consegue criar resumos detalhados sobre documentos complexos e age como um assistente virtual para se aprofundar em um assunto baseando-se nas fontes informadas.</p>
+      <p>Sendo assim, é possível usar a ferramenta para transcrever áudios, analisar documentos, criar resumos, pesquisar nas fontes enviadas, fazer perguntas sobre o conteúdo dos documentos e criar podcasts realistas com base nos arquivos. A plataforma também permite que o usuário salve as respostas dadas pela IA como notas e também crie anotações originais.</p>
+
+      <p><strong>O Google NotebookLM realmente cria podcast?</strong></p>
+      <p>Ao criar um novo Notebook, é preciso fazer upload de arquivos para serem usados como fontes. Esses documentos podem ser PDFs, .TXT, Markdown, áudios, vídeos do YouTube, sites completos ou links do Google Docs e Apresentações. Quando os arquivos são carregados, a inteligência artificial faz uma rápida análise e apresenta um resumo superficial e pergunta o que o usuário quer fazer com aqueles conteúdos.</p>
+      <p>Uma das possibilidades apresentadas é criar uma “Conversa aprofundada” com base nos conteúdos enviados. Ao selecionar essa opção, a inteligência artificial gera um arquivo de áudio que simula um podcast realista, com dois apresentadores conversando sobre o assunto. É possível, então, compartilhar ou baixar o arquivo de áudio, mudar a velocidade do áudio e também classificá-lo como “gostei” e “não gostei”.</p>
+      <p>Por enquanto, esse recurso só está disponível em inglês. Sendo assim, mesmo que as fontes estejam todas em português, o podcast será criado na língua inglesa. Como a maioria dos produtos gerados por IA, os áudios criados pelo NotebookLM podem apresentar alguns erros ou falhas. Além disso, a ferramenta não oferece um recurso de edição dos áudios, apenas a possibilidade de mudar a velocidade de reprodução.</p>
+
+      <p><strong>Como usar o NotebookLM?</strong></p>
+      <p>Para usar o NotebookLM é preciso ter uma conta Google e acessar a plataforma pelo link <a href="https://notebooklm.google.com" target="_blank">https://notebooklm.google.com</a>. Em seguida, clique em “Criar” para começar um novo Notebook e faça o upload dos arquivos desejados. É possível selecionar documentos do dispositivo ou usar links do Google Docs, Apresentações Google, sites, vídeos do YouTube ou colar um texto no local indicado. A plataforma aceita até 50 arquivos de diversas origens.</p>
+      <p>O NotebookLM irá analisar automaticamente os documentos enviados e fará um resumo do conteúdo. Além disso, a ferramenta oferece sugestões do que fazer com o conteúdo, como criar um guia de estudos, uma linha do tempo, uma lista de perguntas frequentes, entre outras. O NotebookLM também gera algumas perguntas com base nos documentos analisados e oferece a possibilidade de criar um “áudio aprofundado”, com dois hosts conversando de maneira realista e fluida.</p>
+      <p>Ao pedir para a IA responder algum questionamento ou fazer pesquisa nas fontes adicionadas, a ferramenta apresenta, em formato de citações, o trecho do documento usado como referência. O usuário pode interagir com cada Notebook de maneira contínua, usando o campo de mensagem para fazer perguntas complementares como em um chatbot comum, adicionando novos documentos para serem usados como fonte e criando anotações próprias. As respostas geradas pela IA também podem ser salvas como uma nota.</p>
+
+      <p><strong>Qual é a diferença entre NotebookLM e Gemini?</strong></p>
+      <p>A maior diferença entre o NotebookLM e o Gemini Google é seu objetivo principal de uso. O Gemini é um chatbot generativo capaz de realizar inúmeras funções, como criar textos criativos, pesquisar na internet, gerar e analisar imagens, desenvolver códigos, entre outros. Já o NotebookLM é mais voltado para a análise de documentos, algo que o Gemini ainda não consegue fazer.</p>
+      <p>A inteligência artificial no NotebookLM usa os conteúdos fornecidos pelos usuários como fonte principal, podendo fazer resumos detalhados, pesquisar nas fontes e responder perguntas baseadas nestes arquivos. O NotebookLM é alimentado pelo modelo multimodal Gemini 1.5 Pro. A ferramenta ainda está em fase experimental e pode apresentar alguns erros ou bugs.</p>
+
+      <p><em>Fonte: <a href="https://www.techtudo.com.br/guia/2024/10/google-notebooklm-tudo-sobre-ia-que-analisa-textos-e-cria-podcast-edsoftwares.ghtml" target="_blank">TechTudo</a></em></p>
+    </section>
+  </main>
+</body>
+</html>
+
+  <script>
+    let currentIndex = 0;
+    const slides = document.getElementById("slides");
+    const totalSlides = slides.children.length;
+
+    function updateSlide() {
+      slides.style.transform = "translateX(-" + (100 * currentIndex) + "%)";
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % totalSlides;
+      updateSlide();
+    }
+
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+      updateSlide();
+    }
+  </script>
+</body>
+</html>
